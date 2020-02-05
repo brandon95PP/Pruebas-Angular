@@ -1,0 +1,22 @@
+nav > a {
+  padding: 5px;
+  text-decoration: none;
+}
+nav > a.active {
+  background-color: green;
+}
+.header-row{
+  width: 100%;
+}
+.header-toolbar {
+  margin-bottom: 20px;
+}
+@media (min-width: 576px) {
+  .container{
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
